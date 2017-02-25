@@ -1,7 +1,7 @@
 var ICloud = require('./node_modules/find-apple-device/index');
 
 var email = "robwagstaff1984@gmail.com";
-var password = "";
+var password = "Rob11ert!";
 var robsiPhone6sID = "4TLKGaG870VQhqFWBK81+nlo/J1uM2c/sEPv+UYVF36O6onJlsfFReHYVNSUzmWV"
 
 var iCloud = new ICloud(email, password);
@@ -23,6 +23,10 @@ iCloud.getDevices(function(err, devices) {
     }
   }
 
+  });
 
-
-});
+    // console.log("started");
+    //   iCloud.alertDevice("4TLKGaG870VQhqFWBK81+nlo/J1uM2c/sEPv+UYVF36O6onJlsfFReHYVNSUzmWV", "This is a test alert!", function(err) {
+    //     if (err) return console.log(err);
+    //     console.log("Successfully alerted device!");
+    //   });
